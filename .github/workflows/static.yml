@@ -38,7 +38,7 @@ jobs:
       - name: Install deps
         run: bun install
       - name: Build
-        run: bun run build
+        run: bun run build --base=/Azuki
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
