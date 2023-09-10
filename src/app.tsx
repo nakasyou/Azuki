@@ -7,10 +7,9 @@ export const App = component$(() => {
       <div>Azuki</div>
       <p>Azuki is distributed super app.</p>
       <button onClick$={() => {
-        console.log(sdk)
-        alert(sdk)
+        alert('Clicked!')
       }}>xxx</button>
-      <button onClick$={() => alert('CLICKED!')}>click me!</button>
+      <button onClick$={() => alert(sdk)}>click me!</button>
     </>
   )
 })
