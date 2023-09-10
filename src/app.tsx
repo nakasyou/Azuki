@@ -10,6 +10,7 @@ export const App = component$(() => {
         console.log(sdk)
         alert(sdk)
       }}>xxx</button>
+      <button onClick$={() => alert('CLICKED!')}>click me!</button>
     </>
   )
 })
