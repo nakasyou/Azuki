@@ -16,6 +16,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "@builder.io/qwik": "^1.2.6"
+    "@builder.io/qwik": "^1.2.6",
+    "matrix-js-sdk": "^28.0.0"
   }
 }
